@@ -1,0 +1,47 @@
+{% extends 'bookmodule/layouts/base.html' %}
+{% load static %}
+{% block active_list %}active{% endblock %}
+
+{% block content %}
+<div class="books-page-container">
+    <div class="books-grid">
+
+        <div class="book-card-modern">
+            <div class="book-cover">
+                <img src="{% static 'book1.png' %}" alt="تأملات يومية">
+            </div>
+            <h3>تأملات يومية</h3>
+            <span class="category-tag">رواية</span>
+            <button class="read-btn-modern">اقرأ الآن</button>
+        </div>
+
+        <div class="book-card-modern">
+            <div class="book-cover">
+                <img src="{% static 'book2.png' %}" alt="ماذا لو فتح الباب">
+            </div>
+            <h3>ماذا لو فتح الباب</h3>
+            <span class="category-tag">رواية أدبية</span>
+            <button class="read-btn-modern">اقرأ الآن</button>
+        </div>
+
+        <div class="book-card-modern">
+            <div class="book-cover">
+                <img src="{% static 'book3.png' %}" alt="Silent Whispers">
+            </div>
+            <h3>Silent Whispers</h3>
+            <span class="category-tag">فلسفة وتأملات</span>
+            <button class="read-btn-modern">اقرأ الآن</button>
+        </div>
+
+        <div class="book-card-modern">
+            <div class="book-cover">
+                <img src="{% static 'book4.png' %}" alt="Machines That Matter">
+            </div>
+            <h3>Machines That Matter</h3>
+            <span class="category-tag">تطوير ذات</span>
+            <button class="read-btn-modern">اقرأ الآن</button>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% load static %}
+<header class="header-container">
+    <div class="logo-section">
+        <img src="{% static 'qu-icon.png' %}" alt="Ghusn Logo" class="main-logo">
+    </div>
+
+    <nav class="topnav">
+        <a href="{% url 'books.index' %}" class="{% block active_home %}{% endblock %}">الرئيسية</a>
+        <a href="{% url 'books.list_books' %}" class="{% block active_list %}{% endblock %}">قائمة الكتب</a>
+        <a href="{% url 'books.aboutus' %}" class="{% block active_about %}{% endblock %}">حولنا</a>
+    </nav>
+
+    <div class="header-spacer" style="width: 150px;"></div>
+</header>

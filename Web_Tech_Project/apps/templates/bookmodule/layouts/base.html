@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}مكتبة غصن{% endblock %}</title>
+    <meta name="keywords" content="Books, Ghusn, Learning, library, Qassim University">
+    <meta name="description" content="مكتبة غصن الإلكترونية - حيث تمتد الأغصان وتورق العقول">
+    <meta name="author" content="Norah - Qassim University">
+
+    {% load static %}
+    <link rel="icon" href="{% static 'qu-icon.png' %}">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    {% include 'bookmodule/includes/header.html' %}
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    {% include 'bookmodule/includes/footer.html' %}
+
+</body>
+</html>

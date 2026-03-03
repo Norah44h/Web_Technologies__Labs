@@ -1,0 +1,112 @@
+/* استيراد الخط من قوقل */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+body {
+    font-family: 'Amiri', serif; /* هذا هو السطر الذي يطبق الخط على كل الموقع */
+}
+
+
+:root {
+    --healthy-green: #2e7d32;      /* الأخضر الصحي المعتمد */
+    --wood-brown: #3e2723;         /* البني الخشبي */
+    --soft-green-glow: rgba(46, 125, 50, 0.08); /* ظل أخضر شفاف جداً وناعم */
+}
+
+body {
+    background-color: #fdfcfb;
+    margin: 0;
+    font-family: 'Amiri', serif;
+}
+
+hr { display: none; }
+
+/* --- الهيدر بظل ضبابي ناعم --- */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 8%;
+    background-color: #ffffff;
+    /* الظل هنا أصبح ضبابياً (20px) وشفافاً جداً ليبدو كهالة وليس كخط */
+    box-shadow: 0 10px 30px var(--soft-green-glow);
+    border-bottom: 1px solid rgba(46, 125, 50, 0.1);
+}
+
+.main-logo { height: 80px; width: auto; }
+
+.topnav { flex-grow: 1; text-align: center; }
+
+.topnav a {
+    color: var(--wood-brown);
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 1.15em;
+    font-weight: bold;
+    padding-bottom: 8px;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover, .topnav a.active {
+    color: var(--healthy-green) !important;
+    border-bottom: 3px solid var(--healthy-green);
+}
+
+/* --- شبكة الكتب (3 أعمدة متزنة) --- */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 أعمدة */
+    gap: 40px;
+    padding: 60px 8%;
+}
+
+.book-card-modern {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
+    /* ظل ناعم جداً يحيط بالمربع من كل الجهات */
+    box-shadow: 0 15px 40px var(--soft-green-glow);
+    transition: transform 0.3s ease;
+    border: 1px solid #f9f9f9;
+}
+
+.book-card-modern:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(46, 125, 50, 0.15); /* يغمق قليلاً عند اللمس */
+}
+
+.book-cover img {
+    width: 100%;
+    max-height: 260px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.category-tag {
+    color: var(--healthy-green);
+    font-weight: bold;
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.read-btn-modern {
+    background-color: var(--healthy-green);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Amiri', serif;
+    font-size: 1.1em;
+}
+
+/* هذا التنسيق سيجعل الفوتر يندفع للأسفل في كل الصفحات بشكل موحد */
+main {
+    min-height: 60vh; /* يضمن أن منطقة المحتوى تأخذ 60% من طول الشاشة على الأقل */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* يضع المحتوى في المنتصف عمودياً */
+}
