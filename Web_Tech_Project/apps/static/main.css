@@ -1,0 +1,126 @@
+/* تنسيقات المهمة الأولى - Lab 5 */
+.link-container {
+    padding: 30px;
+    text-align: center;
+    background-color: #f4f7f1; /* لون خلفية هادئ */
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.custom-link {
+    display: block; /* مطلوب في اللاب عرض الرابط كـ block */
+    padding: 15px;
+    margin: 10px auto;
+    width: 200px;
+    text-decoration: none;
+    color: #2e7d32; /* لون أخضر غصن */
+    font-weight: bold;
+    border: 1px solid #2e7d32;
+}
+
+/* حالات الروابط المطلوبة في اللاب */
+.custom-link:visited {
+    color: #5d4037; /* لون مختلف بعد الزيارة */
+}
+
+.custom-link:hover {
+    background-color: #2e7d32; /* تغيير الخلفية عند مرور الفأرة */
+    color: white;
+}
+
+.custom-link:active {
+    color: #a1887f; /* لون عند النقر النشط */
+}
+
+
+
+/* تنسيقات المهمة الثانية */
+.format-h1 {
+    color: #1b5e20; /* أخضر غابة داكن */
+    font-family: 'Amiri', serif;
+    text-align: center;
+    border-bottom: 2px solid #e8f5e9;
+    padding-bottom: 10px;
+}
+
+.text-sample {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 30px;
+    color: #444;
+}
+
+/* تحديث حالة النقر للروابط (بدل البرتقالي) */
+.custom-link:active {
+    background-color: #d7ccc8 !important; /* اللون الترابي الهادئ الذي اعتمدناه */
+    color: #5d4037;
+}
+
+
+
+/* تنسيقات المهمة الثالثة - القوائم */
+.list-container {
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.main-list {
+    color: #2e7d32; /* اللون الأخضر الأساسي */
+    font-family: 'Amiri', serif;
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+.sub-list {
+    color: #5d4037; /* لون ترابي هادئ للقائمة الفرعية */
+    font-size: 1.1rem;
+    list-style-type: circle; /* نقاط مفرغة للتمييز */
+    margin-top: 5px;
+}
+
+
+
+/* تنسيقات المهمة الرابعة - الجداول */
+.table-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-table {
+    width: 90%;
+    border-collapse: collapse; /* لإزالة الفراغات بين الحدود */
+    font-family: 'Amiri', serif;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.custom-table th {
+    background-color: #2e7d32; /* أخضر غصن */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.custom-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    color: #444;
+}
+
+/* خاصية تمرير الفأرة على الصفوف */
+.custom-table tr:hover {
+    background-color: #f1f8e9; /* لون أخضر باهت جداً */
+    transition: 0.3s;
+}
+
+.rating {
+    color: #fbc02d; /* لون ذهبي للتقييم */
+    font-weight: bold;
+}

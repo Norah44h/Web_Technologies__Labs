@@ -1,0 +1,35 @@
+{% extends 'bookmodule/layouts/base.html' %}
+{% load static %}
+
+{% block title %}القوائم المتداخلة{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'main.css' %}">
+
+<div class="list-container" style="margin-top: 50px;">
+    <h1 class="format-h1">تصنيفات مكتبة غصن</h1>
+
+    <ol class="main-list">
+        <li>الكتب الأدبية
+            <ul class="sub-list">
+                <li>روايات</li>
+                <li>دواوين شعرية</li>
+            </ul>
+        </li>
+
+        <li>الكتب العلمية
+            <ul class="sub-list">
+                <li>برمجة وتطوير الويب</li>
+                <li>علوم الذكاء الاصطناعي</li>
+            </ul>
+        </li>
+
+        <li>كتب الأطفال
+            <ul class="sub-list">
+                <li>قصص تعليمية</li>
+                <li>كتب تفاعلية</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+{% endblock %}

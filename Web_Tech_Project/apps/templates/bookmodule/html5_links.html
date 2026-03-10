@@ -1,0 +1,15 @@
+{% extends 'bookmodule/layouts/base.html' %}
+{% load static %}
+
+{% block title %}الروابط{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'main.css' %}">
+
+<div class="link-container">
+    <h1>تنسيق الروابط</h1>
+
+    <a href="https://www.google.com" target="_blank" class="custom-link">رابط قوقل</a>
+    <a href="{% url 'books.index' %}" class="custom-link">العودة للرئيسية</a>
+</div>
+{% endblock %}

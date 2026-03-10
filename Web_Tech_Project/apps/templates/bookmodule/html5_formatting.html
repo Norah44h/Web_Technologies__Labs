@@ -1,0 +1,24 @@
+{% extends 'bookmodule/layouts/base.html' %}
+{% load static %}
+
+{% block title %}تنسيق النصوص{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'main.css' %}">
+
+<div class="container" style="padding: 40px;">
+    <h1 class="format-h1">Example of Formatting tags</h1>
+
+    <div class="text-sample">
+        <p>
+            في <strong>غصن</strong>، نؤمن أن القراءة هي
+            <i>بذرة <u>الوعي</u></i>
+            التي تنمو لتصبح شجرة معرفة.
+        </p>
+
+        <hr>
+        <p>هذا النص <b>عريض و<i>مائل في نفس الوقت</i></b></p>
+        <p>وهذا النص <u>تحته خط و<small>صغير الحجم</small></u></p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'bookmodule/layouts/base.html' %}
+{% load static %}
+
+{% block title %}الجداول{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'main.css' %}">
+
+<div class="container">
+    <h1 class="format-h1" style="margin-top: 30px;">أكثر الكتب قراءة في غصن</h1>
+
+    <div class="table-container">
+        <table class="custom-table">
+            <thead>
+                <tr>
+                    <th>اسم الكتاب</th>
+                    <th>المؤلف</th>
+                    <th>التصنيف</th>
+                    <th>التقييم</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>أساسيات الذكاء الاصطناعي</td>
+                    <td>د. أحمد خالد</td>
+                    <td>تقني</td>
+                    <td class="rating">4.8 / 5</td>
+                </tr>
+                <tr>
+                    <td>غصن الوعي</td>
+                    <td>نورة محمد</td>
+                    <td>تطوير ذات</td>
+                    <td class="rating">5.0 / 5</td>
+                </tr>
+                <tr>
+                    <td>تطوير الويب بـ Django</td>
+                    <td>م. سارة علي</td>
+                    <td>برمجة</td>
+                    <td class="rating">4.5 / 5</td>
+                </tr>
+                <tr>
+                    <td>رحلة في عقل مبرمج</td>
+                    <td>فهد عبدالله</td>
+                    <td>أدب تقني</td>
+                    <td class="rating">4.2 / 5</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
