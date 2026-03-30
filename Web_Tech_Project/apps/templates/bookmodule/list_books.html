@@ -1,47 +1,28 @@
 {% extends 'bookmodule/layouts/base.html' %}
 {% load static %}
-{% block active_list %}active{% endblock %}
 
 {% block content %}
 <div class="books-page-container">
+    <h1 class="page-title">مكتبة غصن</h1>
+
     <div class="books-grid">
-
-        <div class="book-card-modern">
-            <div class="book-cover">
-                <img src="{% static 'book1.png' %}" alt="تأملات يومية">
+        {% if books %}
+            {% for book in books %}
+                <div class="book-card-modern">
+                    <div class="book-cover">
+                        <img src="{% static 'book' %}{{ book.id }}.png" alt="{{ book.title }}">
+                    </div>
+                    <h3>{{ book.title }}</h3>
+                    <p class="author-text">{{ book.author }}</p>
+                    <span class="category-tag">{{ book.category }}</span>
+                    <button class="read-btn-modern">اقرأ الآن</button>
+                </div>
+            {% endfor %}
+        {% else %}
+            <div style="text-align: center; width: 100%; margin-top: 60px;">
+                <p style="font-size: 1.5rem; color: var(--ghusn-brown);">عذراً نورة، لم نجد نتائج تطابق بحثك.</p>
             </div>
-            <h3>تأملات يومية</h3>
-            <span class="category-tag">رواية</span>
-            <button class="read-btn-modern">اقرأ الآن</button>
-        </div>
-
-        <div class="book-card-modern">
-            <div class="book-cover">
-                <img src="{% static 'book2.png' %}" alt="ماذا لو فتح الباب">
-            </div>
-            <h3>ماذا لو فتح الباب</h3>
-            <span class="category-tag">رواية أدبية</span>
-            <button class="read-btn-modern">اقرأ الآن</button>
-        </div>
-
-        <div class="book-card-modern">
-            <div class="book-cover">
-                <img src="{% static 'book3.png' %}" alt="Silent Whispers">
-            </div>
-            <h3>Silent Whispers</h3>
-            <span class="category-tag">فلسفة وتأملات</span>
-            <button class="read-btn-modern">اقرأ الآن</button>
-        </div>
-
-        <div class="book-card-modern">
-            <div class="book-cover">
-                <img src="{% static 'book4.png' %}" alt="Machines That Matter">
-            </div>
-            <h3>Machines That Matter</h3>
-            <span class="category-tag">تطوير ذات</span>
-            <button class="read-btn-modern">اقرأ الآن</button>
-        </div>
-
+        {% endif %}
     </div>
 </div>
 {% endblock %}

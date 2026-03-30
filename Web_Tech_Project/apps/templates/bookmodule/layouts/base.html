@@ -12,20 +12,17 @@
 
     {% load static %}
     <link rel="icon" href="{% static 'qu-icon.png' %}">
-    <link rel="stylesheet" href="{% static 'styles.css' %}">
-
+    <link rel="stylesheet" href="{% static 'styles.css' %}?v=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
 </head>
 <body>
-
     {% include 'bookmodule/includes/header.html' %}
-
     <main>
         {% block content %}
         {% endblock %}
     </main>
-
     {% include 'bookmodule/includes/footer.html' %}
-
 </body>
 </html>
