@@ -1,0 +1,27 @@
+{% extends 'bookmodule/layouts/base.html' %}
+{% load static %}
+
+{% block content %}
+<h2 class="page-title">نتائج البحث</h2>
+
+<div class="books-grid">
+    {% for obj in books %}
+    <div class="book-card-modern">
+        <div class="book-cover">
+            <img src="{% static 'book0.png' %}" alt="غلاف الكتاب">
+        </div>
+
+        <h3>{{ obj.title }}</h3>
+        <p class="author-text">{{ obj.author }}</p>
+
+        <div class="category-tag">
+            الطبعة: {{ obj.edition }} | {{ obj.price }} ريال
+        </div>
+
+        <button class="read-btn-modern">تفاصيل الكتاب</button>
+    </div>
+    {% empty %}
+    <p class="page-title" style="font-size: 1.2rem;">لا توجد كتب تطابق هذا البحث حالياً.</p>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,722 @@
+[
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Begin Again",
+      "author": "Art Ipplett",
+      "price": 59.99,
+      "edition": 2
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "River, The (Joki)",
+      "author": "Bliss Chese",
+      "price": 8.99,
+      "edition": 7
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Bellboy, The",
+      "author": "Gabriel Nashe",
+      "price": 6.49,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Infestation",
+      "author": "Arlinda Pavek",
+      "price": 29.99,
+      "edition": 1
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Vanishing on 7th Street",
+      "author": "Del Gert",
+      "price": 19.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Infamous",
+      "author": "Janith Settle",
+      "price": 59.99,
+      "edition": 3
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Escape Me Never",
+      "author": "Sarine Geerdts",
+      "price": 3.29,
+      "edition": 10
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Foo Fighters: Back and Forth",
+      "author": "Carlee McMennum",
+      "price": 24.99,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Memories of Underdevelopment (Memorias del subdesarrollo)",
+      "author": "Danna Johnsey",
+      "price": 4.49,
+      "edition": 1
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Milky Way (Tejút)",
+      "author": "Northrup Pierrepoint",
+      "price": 39.99,
+      "edition": 10
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Nora",
+      "author": "Olia Forestel",
+      "price": 2.39,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Severance",
+      "author": "Emelen McArdle",
+      "price": 3.49,
+      "edition": 5
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Devil Bat, The",
+      "author": "Cookie Impy",
+      "price": 3.99,
+      "edition": 1
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Smiling Lieutenant, The",
+      "author": "Malcolm Decourt",
+      "price": 44.99,
+      "edition": 1
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Tourist, The",
+      "author": "Inna Camilli",
+      "price": 1.99,
+      "edition": 10
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "House Arrest",
+      "author": "Cordula Harmour",
+      "price": 19.99,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "High and the Mighty, The",
+      "author": "Lewes Ludgate",
+      "price": 29.99,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Vampire Girl vs. Frankenstein Girl (Kyûketsu Shôjo tai Shôjo Furanken)",
+      "author": "Chad Huggill",
+      "price": 16.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "God's Not Dead",
+      "author": "Florencia Artis",
+      "price": 3.49,
+      "edition": 2
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Night Shift",
+      "author": "Marwin Pigny",
+      "price": 89.99,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Mike Bassett: England Manager",
+      "author": "Shalne Urridge",
+      "price": 3.99,
+      "edition": 6
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Of Mice and Men",
+      "author": "Leonerd Mocher",
+      "price": 69.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Monty Python's And Now for Something Completely Different",
+      "author": "Jamesy Le Sarr",
+      "price": 2.99,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Love Wrecked",
+      "author": "Rudolph Stannard",
+      "price": 199.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Arrival of a Train, The",
+      "author": "Kristoffer Blaxland",
+      "price": 19.99,
+      "edition": 3
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Margaret Thatcher: The Long Walk to Finchley",
+      "author": "Max Imlin",
+      "price": 2.29,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Man of Marble (Czlowiek z Marmuru)",
+      "author": "Morry MacLese",
+      "price": 49.99,
+      "edition": 2
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Pohjanmaa",
+      "author": "Thibaud Lasslett",
+      "price": 2.49,
+      "edition": 1
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Screwed",
+      "author": "Faber Lepper",
+      "price": 4.99,
+      "edition": 7
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "18 Years Old and Rising (J'aime regarder les filles)",
+      "author": "Coleman Wilbore",
+      "price": 7.99,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Journey of Hope (Reise der Hoffnung)",
+      "author": "Vivi Dominy",
+      "price": 2.99,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Dust Factory, The",
+      "author": "Myrtice Knott",
+      "price": 22.99,
+      "edition": 1
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Winter Light (Nattvardsgästerna)",
+      "author": "Lind Elph",
+      "price": 24.99,
+      "edition": 6
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Kuroneko (Black Cat from the Grove, The) (Yabu no naka no kuroneko)",
+      "author": "Roch Klishin",
+      "price": 2.49,
+      "edition": 5
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "On Tour (Tournée)",
+      "author": "Wandis Milstead",
+      "price": 69.99,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Private Life of Sherlock Holmes, The",
+      "author": "Seamus Kear",
+      "price": 19.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Zombie and the Ghost Train (Zombie ja Kummitusjuna)",
+      "author": "Niki Volante",
+      "price": 9.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Shadow of Angels (Schatten der Engel)",
+      "author": "Cyrille Crellim",
+      "price": 3.99,
+      "edition": 2
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Motorcycle Diaries, The (Diarios de motocicleta)",
+      "author": "Daven Searles",
+      "price": 5.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Nobody",
+      "author": "Abie Sleford",
+      "price": 3.59,
+      "edition": 1
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Shooting Dogs (a.k.a. Beyond the Gates)",
+      "author": "Maitilde Harvey",
+      "price": 14.99,
+      "edition": 2
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Villain, The (Ek Villain)",
+      "author": "Sinclair Tomaszczyk",
+      "price": 49.99,
+      "edition": 10
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "120",
+      "author": "Teddie Taysbil",
+      "price": 3.79,
+      "edition": 2
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Duma",
+      "author": "Ole Reeken",
+      "price": 19.99,
+      "edition": 5
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Alvin and the Chipmunks",
+      "author": "Ursula Dominec",
+      "price": 19.99,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Knucklehead",
+      "author": "Otto Dendle",
+      "price": 8.99,
+      "edition": 6
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "One Man Against the Organization",
+      "author": "Ephrayim Beachem",
+      "price": 199.99,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Four Rooms",
+      "author": "Phylis Meah",
+      "price": 7.49,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Cross: The Arthur Blessitt Story, The",
+      "author": "Madelyn Bovis",
+      "price": 29.99,
+      "edition": 10
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Oklahoma Crude",
+      "author": "Gibby Hurton",
+      "price": 5.99,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Patton",
+      "author": "Creighton Dallow",
+      "price": 5.89,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Secrets of Jonathan Sperry, The",
+      "author": "Kent Kerridge",
+      "price": 12.99,
+      "edition": 1
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Magnificent Warriors (Zhong hua zhan shi)",
+      "author": "Paulita Newbury",
+      "price": 4.99,
+      "edition": 3
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Satan Never Sleeps",
+      "author": "Kaiser Corderoy",
+      "price": 3.29,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Ten North Frederick",
+      "author": "Cora Provest",
+      "price": 19.99,
+      "edition": 2
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Mr. Bean's Holiday",
+      "author": "Margery Jacobsson",
+      "price": 19.99,
+      "edition": 3
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Sanshiro Sugata Part Two (Judo Saga II) (Zoku Sugata Sanshirô)",
+      "author": "Purcell Ozintsev",
+      "price": 22.99,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Riding in Cars with Boys",
+      "author": "Claudelle Akerman",
+      "price": 2.49,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Tomorrow at Dawn (Demain dès l'aube)",
+      "author": "Tracie Kornilov",
+      "price": 1.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Waking Up in Reno",
+      "author": "Portia Matteris",
+      "price": 199.99,
+      "edition": 10
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Knock Off",
+      "author": "Lyell Merrydew",
+      "price": 24.99,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Red River",
+      "author": "Adela Pack",
+      "price": 3.79,
+      "edition": 5
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Possible Worlds",
+      "author": "Sibylle Bispham",
+      "price": 14.99,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Blackballed: The Bobby Dukes Story",
+      "author": "Guillemette Wyatt",
+      "price": 4.49,
+      "edition": 6
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Let's Scare Jessica to Death",
+      "author": "Maryann Shepherdson",
+      "price": 34.99,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Torrente 3: El protector",
+      "author": "Betti Foulser",
+      "price": 19.99,
+      "edition": 10
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Child, The",
+      "author": "Brandy Shetliff",
+      "price": 12.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Bling: A Planet Rock",
+      "author": "Edie Dumbrall",
+      "price": 4.49,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Election",
+      "author": "Florette Fenimore",
+      "price": 49.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Cheech & Chong's Next Movie",
+      "author": "Roxana Kordova",
+      "price": 5.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Our Curse",
+      "author": "Johna Kear",
+      "price": 6.49,
+      "edition": 10
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Bathing Beauty",
+      "author": "Aridatha Albro",
+      "price": 44.99,
+      "edition": 9
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Skhizein",
+      "author": "Randi Marciskewski",
+      "price": 24.99,
+      "edition": 8
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "The Last Diamond",
+      "author": "Arabel Deekes",
+      "price": 3.69,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Arcade",
+      "author": "Rollins Merryweather",
+      "price": 8.99,
+      "edition": 4
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Jauja",
+      "author": "Wadsworth MacAne",
+      "price": 5.99,
+      "edition": 6
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Descent",
+      "author": "Katya Couvert",
+      "price": 35.99,
+      "edition": 6
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Mrs. Pollifax-Spy",
+      "author": "Hermy Ashborn",
+      "price": 899.99,
+      "edition": 6
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Evelyn",
+      "author": "Clayborne Seymer",
+      "price": 3.29,
+      "edition": 3
+    }
+  },
+  {
+    "model": "bookmodule.Book",
+    "fields": {
+      "title": "Gore Vidal: The United States of Amnesia",
+      "author": "Oralle Bale",
+      "price": 5.99,
+      "edition": 6
+    }
+  }
+]

@@ -26,5 +26,31 @@
             بحث في غصن
         </button>
     </form>
+
+    <div class="filter-section">
+        <h3 class="filter-title">فلاتر</h3>
+        <div class="filter-cards-container">
+
+            <a href="{% url 'books.simple_query' %}" class="filter-card">
+                <div class="filter-info">
+                    <h4>البحث البسيط</h4>
+                    <p>استخراج الكتب التي تحتوي على 'and'</p>
+                </div>
+            </a>
+
+            <a href="{% url 'books.complex_query' %}" class="filter-card">
+                <div class="filter-info">
+                    <h4>البحث المتقدم</h4>
+                    <p>الطبعة 2+ , والسعر أعلى من 100 ريال</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
 </div>
+
+
+
+
+
 {% endblock %}

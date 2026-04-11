@@ -62,15 +62,33 @@ nav.topnav a:hover { color: var(--ghusn-green); }
 }
 
 /* --- 5. خانة الكتاب (تصميم ثابت وبدون ظل) --- */
+/* --- تعديل المربع ليكون مرناً --- */
 .book-card-modern {
     background-color: #ffffff;
     border: 1px solid #eceae7;
     border-radius: 12px;
-    padding: 12px;
-    width: 190px; /* المقاس المثالي لـ 4 كتب */
+    padding: 15px;
+    width: 210px;
     text-align: center;
-    box-shadow: none !important;
-    transition: none !important;
+    box-shadow: none;
+    /* إلغاء الارتفاع الثابت واستخدام flex لتوزيع العناصر */
+    display: flex;
+    flex-direction: column;
+    min-height: 450px; /* الحد الأدنى لضمان عدم قصر المربع */
+}
+
+/* --- حل مشكلة العناوين الطويلة --- */
+.book-card-modern h3 {
+    color: var(--ghusn-brown);
+    font-size: 1.05rem;
+    margin: 10px 0;
+    /* السماح للنص بالظهور كاملاً في سطرين أو ثلاثة */
+    min-height: 3em;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* هذا يجعل العنوان يأخذ المساحة التي يحتاجها */
 }
 
 .book-card-modern:hover {
@@ -79,7 +97,7 @@ nav.topnav a:hover { color: var(--ghusn-green); }
 
 .book-cover img {
     width: 100%;
-    height: 250px;
+    height: 200px;
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -125,4 +143,55 @@ nav.topnav a:hover { color: var(--ghusn-green); }
     cursor: pointer;
     font-family: 'Amiri', serif;
     font-weight: bold;
+}
+
+
+
+.filter-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.filter-title {
+    color: var(--ghusn-brown);
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.filter-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-card {
+    text-decoration: none;
+    background: white;
+    border: 1px solid #eceae7;
+    border-radius: 15px;
+    padding: 20px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s ease; /* سر الجمال هو الحركة السلسة */
+}
+
+.filter-card:hover {
+    border-color: var(--ghusn-green);
+    transform: translateY(-5px); /* حركة ارتفاع بسيطة عند التمرير */
+    box-shadow: 0 10px 20px rgba(46, 125, 50, 0.1);
+}
+
+.filter-info h4 {
+    margin: 0;
+    color: var(--ghusn-green);
+    font-size: 1.1rem;
+}
+
+.filter-info p {
+    margin: 5px 0 0;
+    color: #757575;
+    font-size: 0.85rem;
 }

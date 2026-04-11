@@ -6,7 +6,7 @@
 
     <nav class="topnav">
         <a href="{% url 'books.index' %}" class="{% block active_home %}{% endblock %}">الرئيسية</a>
-        <a href="{% url 'books.list_books' %}" class="{% block active_list %}{% endblock %}">قائمة الكتب</a>
+        <a href="{% url 'list_all_books' %}" class="{% block active_list %}{% endblock %}">قائمة الكتب</a>
         <a href="{% url 'books.search' %}" class="{% block active_search %}{% endblock %}">البحث عن الكتب</a>
         <a href="{% url 'books.aboutus' %}" class="{% block active_about %}{% endblock %}">حولنا</a>
     </nav>
