@@ -1,0 +1,30 @@
+{% extends 'bookmodule/layouts/base.html' %} {% block content %}
+
+<div class="lab8-container"> <h2>Task 1: Books with price <= 80</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Edition</th>
+                <th>Price</th>
+                <th>Author</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for book in books %}
+            <tr>
+                <td>{{ book.edition }}</td>
+                <td>{{ book.price }} SAR </td>
+                <td>{{ book.author }}</td>
+                <td>{{ book.title }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="4">No books found in this price range.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

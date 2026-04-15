@@ -145,8 +145,6 @@ nav.topnav a:hover { color: var(--ghusn-green); }
     font-weight: bold;
 }
 
-
-
 .filter-section {
     margin-top: 50px;
     text-align: center;
@@ -195,3 +193,31 @@ nav.topnav a:hover { color: var(--ghusn-green); }
     color: #757575;
     font-size: 0.85rem;
 }
+
+/* هذا الكود سيجعل أي جدول بداخل حاوية 'lab8-container' يتوسط الصفحة */
+.lab8-container {
+    width: 80%;
+    margin: 40px auto; /* التوسيط يتم عبر auto للهوامش الجانبية */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* ظل خفيف ليعطي شكلاً احترافياً */
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+

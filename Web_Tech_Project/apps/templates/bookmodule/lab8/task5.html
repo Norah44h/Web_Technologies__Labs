@@ -1,0 +1,37 @@
+{% extends 'bookmodule/layouts/base.html' %}
+
+{% block content %}
+<div class="lab8-container">
+    <h2>Task 5: Number of </h2>
+    
+    <table style="max-width: 500px;"> <thead>
+            <tr>
+                <th>Result</th>
+                <th>Metric</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ stats.count }}</td>
+                <td><strong>Total Number of All Books</strong></td>
+            </tr>
+            <tr>
+                <td>{{ stats.total_price }} SAR</td>
+                <td><strong>Total Price Of All Books</strong></td>
+            </tr>
+            <tr>
+                <td>{{ stats.avg_price|stringformat:".2f" }} SAR</td>
+                <td><strong>Average Price</strong></td>
+            </tr>
+            <tr>
+                <td>{{ stats.max_price }} SAR</td>
+                <td><strong>Highest Book Price</strong></td>
+            </tr>
+            <tr>
+                <td>{{ stats.min_price }} SAR</td>
+                <td><strong>Lowest Book Price</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}

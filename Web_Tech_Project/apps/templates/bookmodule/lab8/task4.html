@@ -1,0 +1,32 @@
+{% extends 'bookmodule/layouts/base.html' %}
+
+{% block content %}
+<div class="lab8-container">
+    <h2>Task 4: All Books Ordered by Title</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Edition</th>
+                <th>Price</th>
+                <th>Author</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for book in books %}
+            <tr>
+                <td>{{ book.edition }}</td>
+                <td>{{ book.price }} SAR </td>
+                <td>{{ book.author }}</td>
+                <td>{{ book.title }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="3">No books available in the database.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

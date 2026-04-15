@@ -1,0 +1,29 @@
+{% extends 'bookmodule/layouts/base.html' %}
+
+{% block content %}
+<div class="lab8-container">
+    <h2>Task 7: Number of Students In Each City</h2>
+    
+    <table>
+        <thead>
+            <tr>
+
+                <th>Number of Students In Each City</th>
+                <th>City Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for city in cities %}
+            <tr>
+                <td>{{ city.num_students }}</td>
+                <td>{{ city.city }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="2">No data available.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
